@@ -1,13 +1,7 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+import React, { Component } from 'react';
 import axios from 'axios';
 
-
-import Lend from './components/Lend.jsx'
-import Borrow from './components/Borrow.jsx'
-import seeddata from '../../../data.json'
-
-export default class Index extends Component {
+export default class Allmovies extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -54,5 +48,4 @@ export default class Index extends Component {
         )
     }
 }
-
-ReactDOM.render(<Index />, document.getElementById('app'));
+export default Allmovies;

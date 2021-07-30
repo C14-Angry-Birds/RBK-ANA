@@ -28,10 +28,7 @@ app.post("/cats", (req, res) => {
     res.send(result);
   });
 });
-// Cat.find((err, res) => {
-//   if (err) throw err;
-//   res.send(res);
-// });
+
 
 app.listen(port, () => {
   console.log(`cats are available on port ${port}`);
