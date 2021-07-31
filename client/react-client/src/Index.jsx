@@ -1,58 +1,67 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import axios from 'axios';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+  } from "react-router-dom";
+import Navbar from "./components/Navbar.jsx"
+import Homepage from "./pages/Homepage.jsx"
+import AllMovies from "./pages/AllMovies.jsx"
+import Login from "./pages/Login.jsx"
+import Sign_in from "./pages/Sign_in.jsx"
+import Watch from "./pages/Watch.jsx"
 
-import Lend from './components/Lend.jsx'
-import Borrow from './components/Borrow.jsx'
-import seeddata from '../../../data.json'
 
 export default class Index extends Component {
     constructor(props) {
         super(props)
-        this.state = {
-            view: "Borrow",
-            cats: seeddata,
-            catDb: []
-        }
-        this.handleChange = this.handleChange.bind(this)
-    }
-
-    componentDidMount() {
-        this.fetchdata()
-    }
-
-    fetchdata() {
-        axios.get("/cats").then(result => {
-            this.setState({
-                catDb: result.data
-            })
-        })
-    }
-
-    handleChange(value) {
-        this.setState({
-            view: value
-        })
-    }
-    addCat(cat) {
-        this.setState({ catDb: [...this.state.catDb, cat] })
-
+        this.state = {}      
     }
 
     render() {
         return (
-            <div>
+        <>
+    
+            <Router>
                 <div>
-                    <button onClick={() => { this.handleChange("Borrow") }}> Borrow </button>
-                    <button onClick={() => { this.handleChange("Lend") }}> Lend </button>
+                 <Navbar/>
+                
+                    
+                    <Switch>
+                    <Route exact path="/">
+                      <Homepage/>
+                    </Route>
+
+
+                    <Route exact path="/AllMovies">
+                        <AllMovies />
+                    </Route>
+
+
+                    <Route exact path="/Watch">
+                        <Watch />
+                    </Route>
+
+                   
+
+                    <Route exact path="/Sign_in">
+                        <Sign_in />
+                    </Route>
+
+                    <Route exact path="/Login">
+                        <Login />
+                    </Route>
+
+                    </Switch>
                 </div>
-                <div>
-                    {(this.state.view === "Borrow") ? (<Borrow cats={this.state.catDb} />) : (<Lend addCat={this.addCat.bind(this)} />)}
-                </div>
-            </div>
+             </Router>
+            
+        </>
         )
     }
 }
 
 ReactDOM.render(<Index />, document.getElementById('app'));
+

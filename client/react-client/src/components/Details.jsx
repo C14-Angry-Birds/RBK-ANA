@@ -6,11 +6,11 @@ import React, { Component } from 'react'
         return (
             <>
             <div className="container">
-               <h1>Name:{this.props.cat.name  }</h1>
+               <h1>Title:{this.props.movie.Title  }</h1>
                <br/>
-               <h1>Owner:{this.props.cat.owner  }</h1>
-                <img className="img" src={this.props.cat.image }/>
-               <h1>Description:{this.props.cat.description  }</h1>
+               <h1>Gender:{this.props.movie.Gender  }</h1>
+                <img className="img" src={this.props.movie.ImageUrl }/>
+               <h1>Description:{this.props.movie.Description  }</h1>
             </div>   
             </>
         )

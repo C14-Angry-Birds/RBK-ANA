@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-class Sign_in extends React.Component {
+class Watch extends React.Component {
   constructor() {
     super();
     this.state = {}
@@ -10,9 +10,10 @@ class Sign_in extends React.Component {
   }
   render() {
     return (
-      <div className='sign'>
-sign in      </div>
+      <div className='watch'>
+     watch
+      </div>
     );
   }
 }
-export default Sign_in;
+export default Watch;

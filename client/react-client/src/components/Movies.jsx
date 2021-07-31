@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import Details from './Details.jsx'
 
- class Borrow extends Component {
+ class Movies extends Component {
     render() {
         return (
             <>
                
                {
-                   this.props.cats.map((cat,index)=>(
-                       <Details cat={cat} key={index}/>
+                   this.props.moviesdata.map((movie,index)=>(
+                       <Details movie={movie} key={index}/>
                    ))
                }
             </>
@@ -16,4 +16,4 @@ import Details from './Details.jsx'
     }
 }
 
-export default Borrow;
+export default Movies;

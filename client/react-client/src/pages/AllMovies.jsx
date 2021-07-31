@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Movies from '../components/Movies.jsx'
+import AddMovie from '../components/AddMovie.jsx'
 
 export default class Allmovies extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            view: "Borrow",
-            cats: seeddata,
-            catDb: []
+            moviesdata: []
         }
-        this.handleChange = this.handleChange.bind(this)
+
     }
 
     componentDidMount() {
@@ -17,35 +17,26 @@ export default class Allmovies extends Component {
     }
 
     fetchdata() {
-        axios.get("/cats").then(result => {
+        axios.get("/movie").then(result => {
             this.setState({
-                catDb: result.data
+                moviesdata: result.data
             })
         })
     }
 
-    handleChange(value) {
-        this.setState({
-            view: value
-        })
-    }
-    addCat(cat) {
-        this.setState({ catDb: [...this.state.catDb, cat] })
+
+    addMovie(movie) {
+        this.setState({ moviesdata: [...this.state.moviesdata, movie] })
 
     }
 
     render() {
         return (
             <div>
-                <div>
-                    <button onClick={() => { this.handleChange("Borrow") }}> Borrow </button>
-                    <button onClick={() => { this.handleChange("Lend") }}> Lend </button>
-                </div>
-                <div>
-                    {(this.state.view === "Borrow") ? (<Borrow cats={this.state.catDb} />) : (<Lend addCat={this.addCat.bind(this)} />)}
-                </div>
+                <AddMovie addMovie={this.addMovie.bind(this)} />
+                <Movies moviesdata={this.state.moviesdata} />
+                           
             </div>
         )
     }
 }
-export default Allmovies;

@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const db = require("../db/db.js");
-const Cat = require("../db/Cat.js");
+const Movie = require("../db/Movie.js");
 
 const port = 3214;
 
@@ -11,8 +11,8 @@ app.use(
 );
 app.use(express.json());
 
-app.get("/cats", (req, res) => {
-  Cat.find({}, (err, result) => {
+app.get("/movie", (req, res) => {
+  Movie.find({}, (err, result) => {
     if (err) {
       res.send(err.message);
     }
@@ -20,16 +20,15 @@ app.get("/cats", (req, res) => {
   });
 });
 
-app.post("/cats", (req, res) => {
-  Cat.create(req.body, (err, result) => {
+app.post("/movie", (req, res) => {
+  Movie.create(req.body, (err, result) => {
     if (err) {
       res.send(err.message);
     }
     res.send(result);
   });
 });
-
 
 app.listen(port, () => {
-  console.log(`cats are available on port ${port}`);
+  console.log(`movie are available on port ${port}`);
 });
