@@ -27,7 +27,7 @@ export default class Index extends Component {
             <Router>
                 <div>
                  <Navbar/>
-                
+                <AllMovies/>
                     
                     <Switch>
                     <Route exact path="/">

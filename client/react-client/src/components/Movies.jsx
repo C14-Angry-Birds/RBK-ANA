@@ -1,14 +1,22 @@
 import React, { Component } from 'react'
 import Details from './Details.jsx'
-
+import data from '../../../../data.json';
  class Movies extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            dataSeed:data
+        }
+              
+            }
     render() {
         return (
             <>
                
                {
-                   this.props.moviesdata.map((movie,index)=>(
-                       <Details movie={movie} key={index}/>
+                   this.state.dataSeed.map((movie,index)=>(
+                       <Details deleteMovie={this.props.deleteMovie} movie={movie} key={index}/>
+
                    ))
                }
             </>

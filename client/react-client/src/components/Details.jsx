@@ -1,18 +1,32 @@
 import React, { Component } from 'react'
-
+import axios from 'axios';
 
  class Details extends Component {
+         
     render() {
         return (
-            <>
-            <div className="container">
-               <h1>Title:{this.props.movie.Title  }</h1>
-               <br/>
-               <h1>Gender:{this.props.movie.Gender  }</h1>
-                <img className="img" src={this.props.movie.ImageUrl }/>
-               <h1>Description:{this.props.movie.Description  }</h1>
-            </div>   
-            </>
+            
+    <div>
+
+    <div className="card">
+     
+      <div className="card-container">
+      <img src={this.props.movie.ImageUrl} width="250px" />
+        <h4>
+          <b>{this.props.movie.Title}</b>
+          <br />
+          <span>{this.props.movie.Gender}</span>
+        </h4>
+        <p>{this.props.movie.Description}</p>
+        <button onClick={() => this.props.deleteMovie(this.props.movie._id)}>Delete</button>
+        
+      </div>
+    
+    </div>
+    
+    {/* <button onClick={() => props.setMovieToUpdate(props.movie)}>Update</button> */}
+  </div>  
+            
         )
     }
 }

@@ -1,11 +1,14 @@
 const express = require("express");
 const app = express();
+var cors = require('cors');
+var bodyParser = require('body-parser');
 const path = require("path");
 const db = require("../db/db.js");
 const Movie = require("../db/Movie.js");
 
 const port = 3214;
-
+app.use(cors());
+app.use(bodyParser.json());
 app.use(
   express.static(path.join(__dirname, "..", "client", "react-client", "dist"))
 );
@@ -28,7 +31,23 @@ app.post("/movie", (req, res) => {
     res.send(result);
   });
 });
-
+app.delete('/movie/:_id', async(req,res)=>{
+  try{
+    const movie = await Movie.findOneAndDelete({_id:req.params._id})
+    res.send(movie)
+  }
+  catch(error){
+    console.log(error)
+  }
+})
+// app.get("/:id", (req, res) => {
+//   Movie
+// .findById(req.params.id)
+//     .then((cat) => res.send(cat))
+//     .catch((err) => {
+//       console.log(err);
+//     });
+// });
 app.listen(port, () => {
   console.log(`movie are available on port ${port}`);
 });
