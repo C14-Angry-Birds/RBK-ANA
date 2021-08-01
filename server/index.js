@@ -7,7 +7,7 @@ const db = require("../db/db.js");
 const Movie = require("../db/Movie.js");
 var cors = require("cors");
 var bodyParser = require("body-parser");
-const port = 3214;
+const port = 3002;
 app.use(cors());
 app.use(bodyParser.json());
 app.use(
@@ -53,9 +53,9 @@ app.delete('/movie/:_id', async(req,res)=>{
     console.log(error)
   }
 })
-app.patch('/movie/:id',async (req,res)=>{
+app.put('/movie/:id',async (req,res)=>{
 try{
-  const movie = await Movie.findByIdAndUpdate({_id:req.params._id}, req.body,{new:true})
+  const movie = await Movie.findByIdAndUpdate(req.params.id, req.body,{new:true})
   res.send(movie)
 }
 catch(error){
@@ -71,6 +71,9 @@ catch(error){
 //       console.log(err);
 //     });
 // });
+app.get('*',(req,res)=>{
+  res.sendFile(path.resolve(__dirname, "..", "client", "react-client", "dist","index.html"))
+})
 app.listen(port, () => {
   console.log(`movie are available on port ${port}`);
 });

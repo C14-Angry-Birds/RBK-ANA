@@ -2,18 +2,27 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import Movies from '../components/Movies.jsx'
 import AddMovie from '../components/AddMovie.jsx'
-
+import Footer from '../components/Footer.jsx';
 export default class Allmovies extends Component {
     constructor(props) {
         super(props)
         this.state = {
             
             moviesdata: [],
-            movieToUpdate:{}
+            selectedMovie:{}
+            
             
         }
-this.deleteMovie=this.deleteMovie.bind(this)
+this.deleteMovie=this.deleteMovie.bind(this);
+this.changeMovie=this.changeMovie.bind(this);
     }
+    changeMovie(movie){
+      this.setState({
+          selectedMovie:movie
+      })
+    }
+
+    
     componentDidMount() {
         this.fetchdata()
     }
@@ -59,12 +68,11 @@ this.deleteMovie=this.deleteMovie.bind(this)
         return (
             <div>
               
-                <AddMovie addMovie={this.addMovie.bind(this)}  />
-                <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} />
+                <AddMovie selectedMovie={this.state.selectedMovie} addMovie={this.addMovie.bind(this)}  />
+                <Movies changeMovie={this.changeMovie}   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} />
 
-                {/* <AddMovie addMovie={this.addMovie.bind(this)} />
-                <Movies moviesdata={this.state.moviesdata} /> */}
-                           
+
+              <Footer/>             
             </div>
         )
     }
