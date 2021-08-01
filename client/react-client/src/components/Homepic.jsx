@@ -14,7 +14,7 @@ class Homepic extends React.Component {
   render() {
     return (
       <div >
-    <img src="https://www.geekgeneration.fr/wp-content/uploads/2021/07/ONE-PIECE.jpg" width="100%" height="600px" />
+    <img src="https://falconfilms-lb.com/wp-content/uploads/2021/04/Film.jpg" width="100%" height="600px" />
    
       </div>
     );

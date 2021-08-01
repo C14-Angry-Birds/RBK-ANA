@@ -12,13 +12,7 @@ export default class Allmovies extends Component {
             movieToUpdate:{}
             
         }
-        this.deleteMovie=this.deleteMovie.bind(this);
-        this.toUpdate=this.toUpdate.bind(this);
-    }
-    toUpdate(movieToUpdate){
-     this.setState({
-        movieToUpdate
-     }) 
+this.deleteMovie=this.deleteMovie.bind(this)
     }
     componentDidMount() {
         this.fetchdata()
@@ -43,10 +37,17 @@ export default class Allmovies extends Component {
         })
     }
 
-   update(updatedData){
-       this.setState({moviesdata:[... this.state.moviesdata.filter((movie)=>movie._id !== updatedData._id),movie] })
-     
-   }
+    deleteMovie(id){
+        console.log(id)
+     axios.delete(`/movie/${id}`)
+     .then(({data})=>{
+        // this.setState({
+        //     moviesdata:this.state.moviesdata.filter(movie=>movie._id !== data._id)
+        // })
+        this.componentDidMount()
+     })
+    }
+
 
 
     addMovie(movie) {
@@ -57,11 +58,13 @@ export default class Allmovies extends Component {
     render() {
         return (
             <div>
-                
-                <AddMovie addMovie={this.addMovie.bind(this)} Update={this.state.Update} />
-                <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} toUpdate={this.props.toUpdate}/>
               
-                       
+                <AddMovie addMovie={this.addMovie.bind(this)}  />
+                <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} />
+
+                {/* <AddMovie addMovie={this.addMovie.bind(this)} />
+                <Movies moviesdata={this.state.moviesdata} /> */}
+                           
             </div>
         )
     }
