@@ -9,7 +9,7 @@ export default class Allmovies extends Component {
         this.state = {
             moviesdata: []
         }
-
+this.deleteMovie=this.deleteMovie.bind(this)
     }
 
     componentDidMount() {
@@ -24,6 +24,18 @@ export default class Allmovies extends Component {
         })
     }
 
+    deleteMovie(id){
+        console.log(id)
+     axios.delete(`/movie/${id}`)
+     .then(({data})=>{
+        // this.setState({
+        //     moviesdata:this.state.moviesdata.filter(movie=>movie._id !== data._id)
+        // })
+        this.componentDidMount()
+     })
+    }
+
+
 
     addMovie(movie) {
         this.setState({ moviesdata: [...this.state.moviesdata, movie] })
@@ -33,8 +45,12 @@ export default class Allmovies extends Component {
     render() {
         return (
             <div>
-                <AddMovie addMovie={this.addMovie.bind(this)} />
-                <Movies moviesdata={this.state.moviesdata} />
+              
+                <AddMovie addMovie={this.addMovie.bind(this)}  />
+                <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} />
+
+                {/* <AddMovie addMovie={this.addMovie.bind(this)} />
+                <Movies moviesdata={this.state.moviesdata} /> */}
                            
             </div>
         )

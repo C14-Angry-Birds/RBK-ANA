@@ -11,7 +11,8 @@ class Sign_in extends React.Component {
   render() {
     return (
       <div className='sign'>
-sign in      </div>
+      sign in     
+      </div>
     );
   }
 }
