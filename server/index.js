@@ -26,6 +26,33 @@ app.get("/movie", (req, res) => {
   });
 });
 
+app.post("/movie", (req, res) => {
+  Movie.create(req.body, (err, result) => {
+    if (err) {
+      res.send(err.message);
+    }
+    res.send(result);
+  });
+});
+app.delete('/movie/:_id', async(req,res)=>{
+  try{
+    const movie = await Movie.findOneAndDelete({_id:req.params._id})
+    res.send(movie)
+  }
+  catch(error){
+    console.log(error)
+  }
+})
+app.patch('/movie/:id',async (req,res)=>{
+try{
+  const movie = await Movie.findByIdAndUpdate({_id:req.params._id}, req.body,{new:true})
+  res.send(movie)
+}
+catch(error){
+  console.log(error)
+}
+})
+
 // app.post("/movie", (req, res) => {
 //   Movie.create(req.body, (err, result) => {
 //     if (err) {

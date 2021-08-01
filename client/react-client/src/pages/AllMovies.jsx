@@ -57,6 +57,10 @@ this.changeMovie=this.changeMovie.bind(this);
      })
     }
 
+   update(updatedData){
+       this.setState({moviesdata:[... this.state.moviesdata.filter((movie)=>movie._id !== updatedData._id),movie] })
+     
+   }
 
 
     addMovie(movie) {
