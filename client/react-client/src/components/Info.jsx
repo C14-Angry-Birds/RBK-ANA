@@ -20,7 +20,7 @@ class Info extends React.Component {
             <div className="card__overlay">
               <div className="card__header">
                 <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                <img className="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
                 <div className="card__header-text">
                   <h3 className="card__title">Awake</h3>            
                   <span className="card__status">Drama </span>
@@ -36,10 +36,10 @@ class Info extends React.Component {
             <div className="card__overlay">        
               <div className="card__header">
                 <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-                <img className="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
                 <div className="card__header-text">
                   <h3 className="card__title">Joker</h3>
-                  <span className="card__status">3 hours ago</span>
+                  <span className="card__status">ACTION</span>
                 </div>
               </div>
               <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
@@ -52,11 +52,11 @@ class Info extends React.Component {
             <div className="card__overlay">
               <div className="card__header">
                 <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
-                <img className="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
                 <div className="card__header-text">
-                  <h3 className="card__title">THE CONJURING</h3>
-                  <span className="card__tagline">Lorem ipsum dolor sit amet consectetur</span>            
+                  <h3 className="card__title">CONJURING</h3>
                   <span className="card__status"> HORROR</span>
+                  {/* <span className="card__tagline">Lorem ipsum dolor sit amet consectetur</span>             */}
                 </div>
               </div>
               <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
@@ -69,7 +69,7 @@ class Info extends React.Component {
             <div className="card__overlay">
               <div className="card__header">
                 <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-                <img className="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
                 <div className="card__header-text">
                   <h3 className="card__title">Shoot em up </h3>
                   <span className="card__status">Action</span>
@@ -79,11 +79,168 @@ class Info extends React.Component {
             </div>
           </a>
         </li>    
+        <li>
+          <a href className="card">
+            <img src="https://images.redbox.com/Images/EPC/boxArtVertical/7168.jpg" className="card__image" alt=""  />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">FAMILY</h3>            
+                  <span className="card__status">COMEDY </span>
+                </div>
+              </div>
+              <p className="card__description">With humankind unable to sleep and think clearly, growing increasingly irrational and violent </p>
+            </div>
+          </a>      
+        </li>
+        <li>
+          <a href className="card">
+            <img src="https://media.senscritique.com/media/000020131614/source_big/The_King_s_Man_Premiere_mission.jpg" className="card__image" alt=""  />
+            <div className="card__overlay">        
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">THE KING'S MAN</h3>
+                  <span className="card__status">POLICE</span>
+                </div>
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href className="card">
+            <img src="https://mobilewallpaperhd.com/wp-content/uploads/2021/03/The-Batman-Wallpaper-485x1024.jpg" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">BATMAN</h3>
+                  <span className="card__status"> ACTION</span>
+                  {/* <span className="card__tagline">Lorem ipsum dolor sit amet consectetur</span>             */}
+                </div>
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href className="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnmyQohCNUMXijA2gTpOAfZkRGANmnYfaWoIH8jJIMiCRZZ4CI6MHtsg_AYCiqwdgA8CM&usqp=CAU" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">THE BEGGINING </h3>
+                  <span className="card__status">CRIME</span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
+        <li>
+          <a href className="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCr9XBNsKLTG0B_NxoaLQ_spOcOsXaBR8Wfw&usqp=CAU" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">THE TOMORROW WAR </h3>
+                  <span className="card__status">ACTION</span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
+        <li>
+          <a href className="card">
+            <img src="https://i.pinimg.com/474x/4c/5a/4d/4c5a4dddbe33d4b3974f87ef90489a90.jpg" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">RISE OF THE Guardians </h3>
+                  <span className="card__status">CARTOON</span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
+        <li>
+          <a href className="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLwao_ww6-Y82ZFgo8F2NlJDnN5LCi3SsR1w&usqp=CAU" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">JUNGLE RUN </h3>
+                  <span className="card__status"> ADVENTURE</span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
+        <li>
+          <a href className="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvzxm6w3HTi5ubMl_o_ytGV_E03g05fKQ86g&usqp=CAU" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">FEAR</h3>
+                  <span className="card__status">ACTION </span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
+        <li>
+          <a href className="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi98lB6isvT9k9TX17Xqq0AytHlX28FRrXcg&usqp=CAU" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">BUCKSKIN</h3>
+                  <span className="card__status">ACTION</span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
+        <li>
+          <a href className="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSerJtWDfZPBo50ZG60z79qFAJJz52y6jSP9MZSxWACP45DDPfaSkCV3iypJtBRfJeuk&usqp=CAU" className="card__image" alt="" />
+            <div className="card__overlay">
+              <div className="card__header">
+                <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img className="card__thumb" src="https://lh3.googleusercontent.com/v_La9fN347Xp4mx5YTP09ifrzdGV-0FO3_MZym9Qimvi1MmCdgGz3gPU72i6nIgRkbjmWsBQ82Hi7AIObAOF9bGfl8zHPoxgLn2ihp2aXFl5WggpmOAScplBcHJvzCxwWeSUZLdrT03_Uszc8n1-2UxCgA53tdICsRS6tN9ZXKZjC-nv5vZ6m95q5fG9kWUy67U8vkgJcOIw8gZNcZJDUAqKF-dnqiEu2Xtwp8XTAzrVUG7RhXChgOilRimKp0KirWeherwyet3dSYUzuA_sfPp_RHizT9S7cuRiLken0ztD05JWogtDdhbHd9vJQVa2isw4Sq6MlwZxsGG1yWYO_DJaAI9uXK8bDpMcY6bVLDMBwiadXuvv5R7h49mw9U1Co8Xhez-Iy03xoSvR6l73yxiia_hlSM-d6vm6lfYg0MJ74TH6rVfDlQPcxtQzQ_6naLB30w74l7CD5EfkwEhmO8DkaL3Iz24R5SQYMP_OKdS6lX4r7RwLg0jyBv_PX_6iyMRMWn8vkF7yvq1xoMwmsfClS2FvJzBRFqurwPPBMg7MRmgXNjN9DAH9Pt2rdrTxxp-gAynS6cM3Ukb57oUDprqKIBlo1mv8_pPobY4LYW1Rl5OgnIy4lX8B0MR9ChGruUT3keIMTIDdbNSnQbcDWyEMwWUym6zDSyUZgHRQUnbs0TaFoLJ41gNC3zMmXYHSGgDHhZcHxleQpCYainqe_60=w317-h238-no?authuser=0" alt="" />
+                <div className="card__header-text">
+                  <h3 className="card__title">BLACK WIDOW </h3>
+                  <span className="card__status">ACTION</span>
+                </div>          
+              </div>
+              <p className="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>    
       </ul>
-
-
-
-
 </div>
       </div>
     );

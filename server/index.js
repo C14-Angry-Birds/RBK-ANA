@@ -32,6 +32,19 @@ app.post("/movie", (req, res) => {
   });
 });
 
+app.get("*", (req, res) => {
+  res.sendFile(
+    path.resolve(
+      __dirname,
+      "..",
+      "client",
+      "react-client",
+      "dist",
+      "index.html"
+    )
+  );
+});
+
 app.listen(port, () => {
   console.log(`movie are available on port ${port}`);
 });

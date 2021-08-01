@@ -29,12 +29,12 @@ axios.post('/movie', this.state).then(({data})=>{
 
     render() {
         return (
-            
+            <>
            <div className="movie-card">
                 <h1> AddMovie</h1>
                 <div className="container-card">
                 <h3 className="title1">Title:</h3> 
-                <input className="inp" type="text" name="Title" value={this.state.Title} onChange={this.handleChange}/>           
+                <input className="inp" type="text" name="Title" value={this.state.Title} onChange={this.handleChange}/>                    
                 <h3>Gender: </h3>
                 <input className="inp" type="text" name="Gender" value={this.state.Gender} onChange={this.handleChange}/>
                 <h3>Img Url:  </h3>
@@ -45,6 +45,7 @@ axios.post('/movie', this.state).then(({data})=>{
                 <button onClick={this.add.bind(this)}>Add Movie</button>
                 </div>
             </div>
+            </>
         )
     }
 }

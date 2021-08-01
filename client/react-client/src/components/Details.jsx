@@ -24,26 +24,27 @@ axios.delete(`/movie/${id}`) .then(({data})=>{
 
     render() {
     return (
-        <div className="card1">
-     
-        <div className="card-container">
-            <div id="final">
-        <img src={this.props.movie.ImageUrl} width="250px" />
-          <h4>
-            <b>{this.props.movie.Title}</b>
-            <br />
-            <span>{this.props.movie.Gender}</span>
-          </h4>
-          <p>{this.props.movie.Description}</p>
-          <button onClick={() => this.deleteMovie(this.props.movie._id)}>Delete</button>
-        {/* <button onClick={() => this.props.toUpdate(props.movie)}>UpdateMovie</button>  */}
-        </div>
-       
+      <>
+    <div className="card_movie">
+         <img src={this.props.movie.ImageUrl} width="250px" />
+         <div className="card_container">
+             <h4>
+               <b>{this.props.movie.Title}</b>
+               <br />
+               <span>{this.props.movie.Gender}</span>
+             </h4>
+             <p>{this.props.movie.Description}</p>
+         </div>
+       <button onClick={() => this.deleteMovie(this.props.movie._id)}>Delete</button>
       </div>
-    
-    </div>    
+  
+ 
+
+    </> 
         )
     }
 }
 
 export default Details;
+
+

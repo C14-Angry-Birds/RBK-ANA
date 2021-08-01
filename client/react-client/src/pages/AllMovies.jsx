@@ -49,9 +49,7 @@ this.deleteMovie=this.deleteMovie.bind(this)
                 <AddMovie addMovie={this.addMovie.bind(this)}  />
                 <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} />
 
-                {/* <AddMovie addMovie={this.addMovie.bind(this)} />
-                <Movies moviesdata={this.state.moviesdata} /> */}
-                           
+                                   
             </div>
         )
     }

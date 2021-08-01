@@ -7,6 +7,7 @@ import {
     Route, Link
   } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx"
+import Info from "./components/Info.jsx"
 import Homepage from "./pages/Homepage.jsx"
 import AllMovies from "./pages/AllMovies.jsx"
 import Login from "./pages/Login.jsx"
@@ -40,19 +41,20 @@ export default class Index extends Component {
             </li>
             <li className="topListItem">
               <Link style={{textDecoration: "none",
-  color: "#adad44"}}  to="/AllMovies">MOVIES</Link>
+  color: "#adad44"}}  to="/Info">MOVIES</Link>
             </li>
             <li className="topListItem">
               <Link style={{textDecoration: "none",
-  color: "#adad44"}}  to="/Watch">WATCH</Link>
+  color: "#adad44"}}  to="/AllMovies">ADMIN</Link>
             </li>
+           
             <li className="topListItem">
               <Link style={{textDecoration: "none",
   color: "#adad44"}}  to="/Login">LOGIN</Link>
             </li>
             <li className="topListItem">
               <Link  style={{textDecoration: "none",
-  color: "#adad44" }} to="/Sign_in">Sign_in</Link>
+  color: "#adad44" }} to="/Sign_in">SIGN_IN</Link>
             </li>
           </ul>
         </nav>
@@ -62,12 +64,13 @@ export default class Index extends Component {
           <Route exact path="/">
             <Homepage />
           </Route>
+          <Route exact path="/Info">
+            <Info />
+          </Route>
           <Route exact path="/AllMovies">
             <AllMovies />
           </Route>
-          <Route exact path="/Watch">
-            <Watch />
-          </Route>
+      
 
           <Route exact path="/Login">
             <Login />
