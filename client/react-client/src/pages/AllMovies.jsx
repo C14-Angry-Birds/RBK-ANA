@@ -8,34 +8,47 @@ export default class Allmovies extends Component {
         super(props)
         this.state = {
             
-            moviesdata: []
+            moviesdata: [],
+            movieToUpdate:{}
             
         }
         this.deleteMovie=this.deleteMovie.bind(this);
+        this.toUpdate=this.toUpdate.bind(this);
     }
-    
+    toUpdate(movieToUpdate){
+     this.setState({
+        movieToUpdate
+     }) 
+    }
     componentDidMount() {
         this.fetchdata()
     }
     deleteMovie(id){
+        console.log(id)
      axios.delete(`/movie/${id}`)
      .then(({data})=>{
-        this.setState({
-            moviesdata:this.state.moviesdata.filter(movie=>movie._id !== data._id)
-        })
+        // this.setState({
+        //     moviesdata:this.state.moviesdata.filter(movie=>movie._id !== data._id)
+        // })
+        this.componentDidMount()
      })
     }
 
     fetchdata() {
         axios.get("/movie").then(result => {
-            console.log(data)
+            
             this.setState({
                 moviesdata: result.data
             })
         })
     }
 
-   
+   update(updatedData){
+       this.setState({moviesdata:[... this.state.moviesdata.filter((movie)=>movie._id !== updatedData._id),movie] })
+     
+   }
+
+
     addMovie(movie) {
         this.setState({ moviesdata: [...this.state.moviesdata, movie] })
 
@@ -44,10 +57,11 @@ export default class Allmovies extends Component {
     render() {
         return (
             <div>
-                <AddMovie addMovie={this.addMovie.bind(this)} />
-                <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie}/>
+                
+                <AddMovie addMovie={this.addMovie.bind(this)} Update={this.state.Update} />
+                <Movies   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} toUpdate={this.props.toUpdate}/>
               
-                           
+                       
             </div>
         )
     }

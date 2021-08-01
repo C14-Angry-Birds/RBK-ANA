@@ -23,15 +23,16 @@ export default class Index extends Component {
     render() {
         return (
         <>
-    
             <Router>
                 <div>
                  <Navbar/>
+                 <Homepage/>
                 <AllMovies/>
+
                     
                     <Switch>
                     <Route exact path="/">
-                      <Homepage/>
+                      {/* <Homepage/> */}
                     </Route>
 
 

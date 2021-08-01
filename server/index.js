@@ -23,14 +23,24 @@ app.get("/movie", (req, res) => {
   });
 });
 
-app.post("/movie", (req, res) => {
-  Movie.create(req.body, (err, result) => {
-    if (err) {
-      res.send(err.message);
-    }
-    res.send(result);
-  });
-});
+// app.post("/movie", (req, res) => {
+//   Movie.create(req.body, (err, result) => {
+//     if (err) {
+//       res.send(err.message);
+//     }
+//     res.send(result);
+//   });
+// });
+app.post('/movie', async (req,res)=>{
+  try{
+    const{Title,Gender,ImageUrl,Description}=req.body
+    const moviess= await Movie.create(req.body)
+    res.status(201).send(moviess)
+  }
+  catch(error){
+    res.send(error)
+  }
+})
 app.delete('/movie/:_id', async(req,res)=>{
   try{
     const movie = await Movie.findOneAndDelete({_id:req.params._id})
@@ -40,6 +50,16 @@ app.delete('/movie/:_id', async(req,res)=>{
     console.log(error)
   }
 })
+app.patch('/movie/:id',async (req,res)=>{
+try{
+  const movie = await Movie.findByIdAndUpdate({_id:req.params._id}, req.body,{new:true})
+  res.send(movie)
+}
+catch(error){
+  console.log(error)
+}
+})
+
 // app.get("/:id", (req, res) => {
 //   Movie
 // .findById(req.params.id)

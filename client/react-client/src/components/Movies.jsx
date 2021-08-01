@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Details from './Details.jsx'
 import data from '../../../../data.json';
+import axios from "axios"
  class Movies extends Component {
     constructor(props) {
         super(props)
@@ -9,13 +10,23 @@ import data from '../../../../data.json';
         }
               
             }
+            componentDidMount(){
+             
+                    axios.get("/movie").then(result => {
+                        
+                        this.setState({
+                            dataSeed: result.data
+                        })
+                    })
+                
+            }
     render() {
         return (
             <>
                
                {
                    this.state.dataSeed.map((movie,index)=>(
-                       <Details deleteMovie={this.props.deleteMovie} movie={movie} key={index}/>
+                       <Details  movie={movie} key={index}/>
 
                    ))
                }
