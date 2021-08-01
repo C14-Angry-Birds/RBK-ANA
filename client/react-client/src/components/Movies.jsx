@@ -26,7 +26,7 @@ import axios from "axios";
                
                {
                    this.props.moviesdata.map((movie,index)=>(
-                       <Details  movie={movie} key={index}/>
+                       <Details changeMovie={this.props.changeMovie} movie={movie} key={index}/>
 
                    ))
                }
