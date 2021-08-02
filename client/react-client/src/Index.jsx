@@ -13,6 +13,8 @@ import AllMovies from "./pages/AllMovies.jsx"
 import Login from "./pages/Login.jsx"
 import Sign_in from "./pages/Sign_in.jsx"
 import Watch from "./pages/Watch.jsx"
+import Img from "./components/Img.jsx"
+import Footer from "./components/Footer.jsx"
 
 
 export default class Index extends Component {
@@ -79,6 +81,8 @@ export default class Index extends Component {
             <Sign_in />
           </Route>
         </Switch>
+        {/* <Img/>
+        <Footer/> */}
       </div>
     </Router>
     

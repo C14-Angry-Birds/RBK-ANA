@@ -70,7 +70,7 @@ this.changeMovie=this.changeMovie.bind(this);
 
     render() {
         return (
-            <div>
+            <div className="Adimg">
               
                 <AddMovie selectedMovie={this.state.selectedMovie} addMovie={this.addMovie.bind(this)}  />
                 <Movies changeMovie={this.changeMovie}   moviesdata={this.state.moviesdata} deleteMovie={this.deleteMovie} />

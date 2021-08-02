@@ -31,23 +31,6 @@ update(movie){
 
     render() {
     return (
-      // <div className='container4'>
-      //   <div className="box">
-      //   <div className="img">
-      //   <img src={this.props.movie.ImageUrl} />
-      //   </div>
-
-      //   <div className="details">
-      //     <h4>{this.props.movie.Title}</h4>
-      //     <p className='type'>{this.props.movie.Gender}</p>
-      //     <p className='desc'>{this.props.movie.Description}</p>
-      //   </div>
-      //   <div className="btns">
-      //     <button onClick={() => this.deleteMovie(this.props.movie._id)}>Delete</button>
-      //     <button onClick={() => this.update(this.props.movie)}>UpdateMovie</button>
-      //   </div>
-      //   </div>
-      // </div>
         <div className="card1">
          
         <div className="card-container">
